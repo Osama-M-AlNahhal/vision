@@ -1,0 +1,20 @@
+:root {
+	--primary: #03A0C6;
+	--primary-lighter: #0db1d9;
+	--primary-darker: #0286a6;
+	--secondary: #e5e5e5;
+	--secondary-lighter: #f0f0f0;
+	--secondary-darker: #d4d4d4;
+	--background: #ffffff;
+	--error: #F85252;
+	--warning: #F8F252;
+	--success: #52F873;
+	--black: #000;
+	--white: #fff;
+}
+
+body, html, *, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

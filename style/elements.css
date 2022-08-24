@@ -1,0 +1,36 @@
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	background: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+.btn-link {
+	border: 1px solid var(--black);
+	border-radius: 18px;
+	padding: 0 1rem;
+	font-size: x-large;
+}
+.btn-link:hover {
+	background-color: var(--primary);
+	color: #000;
+}
+
+.btn-link.red {
+	background-color: var(--error);
+}
+.btn-link.blue {
+	background-color: var(--primary);
+}
+.btn-link.blue:hover {
+	background-color: #2bc9f0;
+}
