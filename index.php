@@ -13,7 +13,7 @@
 	<title>vision</title>
 </head>
 <body>
-	<?php require_once('php/inc/navbar.inc.php'); ?>
+	<?php require_once('php/inc/header.inc.php'); ?>
 
 
 

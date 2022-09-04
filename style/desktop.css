@@ -1,3 +1,260 @@
 @media screen and (min-width: 1024px) {
+
+	body {
+		position: relative;
+
+	}
+
+	.navbar-wrapper {
+		flex-direction: column;
+		width: 15rem;
+		height: 100vh;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		padding: 0;
+	}
+
+	.navbar {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 1vw;
+		width: 5vw;
+		height: 100%;
+		padding: 0;
+		left: 0;
+
+		animation: 0.5s all;
+	}
+
+	.navbar.expand {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 2rem;
+		width: 15rem;
+		height: 100%;
+		padding: 0;
+		left: 0;
+
+		animation: 0.5s all;
+	}
+
+	.navbar-links {
+		flex-direction: column;
+		width: 100%;
+		height: 60vh;
+	}
+
+	.navbar.expand .brand {
+		margin: 0;
+		position: absolute;
+		top: 1rem;
+		left: 4rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 0;
+	}
+	.brand {
+		margin: 0;
+		position: absolute;
+		top: 1rem;
+		left: 0.2vwp;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 0;
+	}
+	.navbar.expand .logo {
+		width: 6.6rem;
+    	height: 4.6rem;
+
+	}
+	.logo {
+		width: 6.6vw;
+    	height: 4.3vw;
+
+ 
+    	width: 3.7rem;
+    	height: 2.6rem;
+	}
+
+	.brand-name {
+		display: none;
+	}
+
+	.navbar.expand .brand-name {
+		display: inherit;
+	}
+
+	.home-text {
+		display: none;
+	}
+	.navbar.expand .home-text {
+		display: none;
+	}
+	.home-icon {
+		width: 2.5vw;
+		height: 2.5vw;
+		margin: 2vw;
+		display: inherit;
+	}
+	.navbar.expand .home-icon {
+		display: none;
+	}
+
+	.dashboard-text {
+		display: none;
+	}
+	.navbar.expand .dashboard-text {
+		display: inherit;
+	}
+
+	.dashboard-icon {
+		width: 2.5vw;
+		height: 2.5vw;
+		margin: 2vw;
+		display: inherit;
+	}
+
+	.navbar.expand .dashboard-icon {
+		display: none;
+	}
+
+	.settings-btn {
+		width: fit-content;
+	}
+
+	.navbar.expand .settings-btn {
+		width: 7rem;
+	}
+
+
+
+	.settings-text {
+		display: none;
+	}
+	.navbar.expand .settings-text {
+		display: inherit;
+	}
+
+	.settings-icon {
+		width: 2.5vw;
+		height: 2.5vw;
+		margin: 2vw;
+		display: inherit;
+	}
+
+	.navbar.expand .settings-icon {
+		display: none;
+	}
+
+	.technical-support-text {
+		display: none;
+	}
+	.navbar.expand .technical-support-text {
+		display: inherit;
+	}
+
+	.technical-support-icon {
+		width: 2.5vw;
+		height: 2.5vw;
+		margin: 2vw;
+		display: inherit;
+	}
+
+	.navbar.expand .about-icon {
+		display: none;
+	}
+
+	.about-text {
+		display: none;
+	}
+	.navbar.expand .about-text {
+		display: inherit;
+	}
+
+	.about-icon {
+		width: 2.5vw;
+		height: 2.5vw;
+		margin: 2vw;
+		display: inherit;
+	}
+
+	.navbar.expand .technical-support-icon {
+		display: none;
+	}
+
+
+	.buttons-container {
+		position: absolute;
+		gap: 0.5rem;
+	}
+
+	.login {
+		display: none;
+	}
+
+	.register {
+		display: none;
+	}
+
+	.navbar-links .user {
+		display: inherit ;
+	}
+
+	.user .dropdown-icon {
+		display: none;
+	}
+
+	.avatar {
+		display: inherit;
+		
+	}
+
+	.avatar-img {
+		width: 3vw;
+		height: 3vw;
+
+		border-radius: 50%;
+	}
+
+
+	.username {
+		display: none;
+	}
+
+	.navbar.expand .username {
+		display: inherit;
+	}
+
+	li.settings {
+		display: flex;
+	}
+
+	li.settings .dropdown-icon {
+		display: none;
+	}
 	
+	.navbar .navbar-links .current-page {
+		width: 100%;
+		padding: 0rem 1rem;
+	}
+	.navbar ul li {
+		width: 100%;
+		font-size: x-large;
+	}
+
+	.login a, .register a, .user a {
+		font-size: larger;
+	}
+	
+
 }

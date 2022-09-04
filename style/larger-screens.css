@@ -1,3 +1,5 @@
 @media screen and (min-width: 1200px) {
-	
+	.navbar-links {
+		justify-content: space-around;
+	}	
 }
